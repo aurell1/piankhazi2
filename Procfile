@@ -1,1 +1,1 @@
-web: gunicorn app.home:app
+web: gunicorn piank.home:app
