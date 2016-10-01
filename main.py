@@ -3,6 +3,7 @@ import os
 
 app = Flask(__name__)
 
+@app.route('/')
 def my_func():
 	return 'Sikeres futas!'
 	
