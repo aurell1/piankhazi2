@@ -1,4 +1,3 @@
 assertpy
 flask
-gevent
 gunicorn
