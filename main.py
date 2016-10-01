@@ -3,9 +3,9 @@ import os
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route("/")
 def my_func():
-	return 'Sikeres futas!'
+	return "Sikeres futas!"
 	
 if __name__ == '__main__':
-	app.run(host='0.0.0.0', port=os.getenv('PORT', None)
+	app.run(host='0.0.0.0', port=os.environ.get("PORT", None))
